@@ -1,0 +1,30 @@
+{
+ "plan": "HDHP 2027 family-heavy (held-out)",
+ "lint": [],
+ "known": 21588,
+ "uncertain": 444,
+ "firm": 20561,
+ "firm_right": 20315,
+ "in_range": 408,
+ "families": 660,
+ "families_arrival_diff": 312,
+ "arrival_diff_usd": 16010.74999999999,
+ "posted": {
+  "exact": 19858,
+  "bills": 62,
+  "bill_usd": 6338.739999999999,
+  "refund_usd": 179416.24999999985
+ },
+ "replay": {
+  "exact": 19888,
+  "bills": 32,
+  "bill_usd": 4140.099999999999,
+  "refund_usd": 179746.45999999985
+ },
+ "this": {
+  "exact": 20810,
+  "bills": 40,
+  "bill_usd": 5397.719999999999,
+  "refund_usd": 71252.16999999998
+ }
+}
