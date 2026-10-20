@@ -1,0 +1,30 @@
+{
+ "plan": "HDHP 2026 (dev)",
+ "lint": [],
+ "known": 8598,
+ "uncertain": 186,
+ "firm": 8296,
+ "firm_right": 8240,
+ "in_range": 169,
+ "families": 450,
+ "families_arrival_diff": 109,
+ "arrival_diff_usd": 6223.170000000001,
+ "posted": {
+  "exact": 8161,
+  "bills": 34,
+  "bill_usd": 3063.6400000000003,
+  "refund_usd": 31849.740000000016
+ },
+ "replay": {
+  "exact": 8191,
+  "bills": 5,
+  "bill_usd": 481.93,
+  "refund_usd": 31700.660000000014
+ },
+ "this": {
+  "exact": 8452,
+  "bills": 46,
+  "bill_usd": 2763.01,
+  "refund_usd": 6602.950000000002
+ }
+}

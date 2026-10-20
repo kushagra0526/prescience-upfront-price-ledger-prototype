@@ -1,0 +1,11 @@
+{
+ "note": "Frozen before the first run. A family-heavy employer on a 2027 plan, slower claims (x1.6 lag), twice as many corrected claims, higher use, new seeds. Dev never saw any of these.",
+ "seeds": [201, 202, 203],
+ "cfg": {"employees": 220, "family_mix": [0.25, 0.25, 0.25, 0.25], "rx_generic": 0.35, "rx_glp1": 0.12,
+         "correct_rate": 0.12, "lag_scale": 1.6, "util": 1.2},
+ "plan": {"name": "HDHP 2027 family-heavy (held-out)", "year": 2027, "hsa": true, "ded_self": 2000, "oop_self": 6000,
+          "ded_fam": 4000, "ded_embedded": 3500, "oop_fam": 12000, "oop_embedded": 6000,
+          "services": {"office": {"share": "copay", "value": 30, "pre_ded": false, "cat": "other"},
+                       "imaging": {"share": "coins", "value": 0.3, "pre_ded": false, "cat": "other"},
+                       "er": {"share": "coins", "value": 0.3, "pre_ded": false, "cat": "other"}}}
+}
